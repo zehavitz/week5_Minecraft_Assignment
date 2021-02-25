@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#gameBackground{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+
+td{
+    background-color: #8CBFFB;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+
+}
+.grass {
+    background-image: url(../images/grass.png);
+}
+
+.cloud {
+    background-image: url(../images/cloud.png);
+}
+.rock {
+    background-image: url(../images/rock.png);
+}
+.soil {
+    background-image: url(../images/soil.jpg);
+}
+.treeLeaves {
+    background-image: url(../images/tree-leaves.png);
+}
+.wood {
+    background-image: url(../images/wood.png);
+}
