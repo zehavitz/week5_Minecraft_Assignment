@@ -4,10 +4,56 @@
     box-sizing: border-box;
 }
 
-#gameBackground{
-    border-collapse: collapse;
+.container {
     display: flex;
     justify-content: center;
+}
+ 
+.toolsBoard {
+padding-top: 30px;
+height: 600px;
+width: 150px;
+background-color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.toolContainer{
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.tool {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.toolName {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.pickaxe{
+    background-image: url(../images/stone_pickaxe.png);
+}
+
+.shovel{
+    background-image: url(../images/stone_shovel.png);
+}
+
+.axe{
+    background-image: url(../images/stone_axe.png);
+}
+
+
+#gameBackground{
+    border-collapse: collapse;
 }
 
 td{
