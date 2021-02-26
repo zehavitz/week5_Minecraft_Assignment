@@ -28,9 +28,14 @@ align-items: center;
 }
 
 .tool {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-size: cover;
+}
+
+.activeTool {
+    background: blue;
+    border: 1px solid blue !important;
 }
 
 .toolName {
@@ -50,6 +55,20 @@ align-items: center;
 .axe{
     background-image: url(../images/stone_axe.png);
 }
+
+#inventory {
+    border: 1px solid grey;
+    height: 40px;
+    width: 40px;    
+    background-size: cover;
+}
+
+.resetBtn {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
 
 
 #gameBackground{
