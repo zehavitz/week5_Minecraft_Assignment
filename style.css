@@ -4,6 +4,44 @@
     box-sizing: border-box;
 }
 
+.startScreen {
+    background-image: url(../images/minecraft_wallpaper.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.startContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.startGameBtn {
+    box-shadow: 8px 8px 8px 0px rgb(0 0 0 / 50%);    
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 20px ;
+}
+
+.instructions {
+    box-shadow: 8px 8px 8px 0px rgb(0 0 0 / 80%);    
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
 .container {
     display: flex;
     justify-content: center;
